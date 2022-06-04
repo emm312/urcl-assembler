@@ -36,7 +36,6 @@ std::vector<Token> tokeniser(std::string code) {
     std::vector<Token> tokens;
 
     std::vector<std::string> words = to_words(code);
-    std::cout << words[2] << "\n";
 
 
     // INSTRUCTIONS
