@@ -22,7 +22,7 @@ std::string enumtostring(TT_TYPES type) {
 
 int main()
 {
-    std::string code = ".label\n.label2\nJMP .label2\nADD R0 R1 R2\n";
+    std::string code = ".label\n.label2\nJMP .label2\nADD R0 R1 R2\n12321\n#1\n";
     std::vector<Token> tokens = tokeniser(code);
     // print the tokens var
     std::cout << "Tokens:" << "\n";

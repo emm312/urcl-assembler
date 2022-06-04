@@ -27,6 +27,7 @@ std::vector<std::string> to_words(std::string code) {
                 word += c;
             }
         }
+        words.push_back(word);
     }
     return words;
 }
