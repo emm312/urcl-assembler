@@ -1,0 +1,302 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Jun 04 20:46:45 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
+# environment
+USERPROFILE = C:\Users\emmtb
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+LOCALAPPDATA = C:\Users\emmtb\AppData\Local
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d72084c0-a27a-47b1-9420-ff7bd93ba3f8-sock
+# environment
+VSCODE_CWD = C:\Users\emmtb\AppData\Local\Programs\Microsoft VS Code
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+LUA_DEV = C:\Program Files (x86)\Lua\5.1
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13132_SUXRXAPOIKTETBWS
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\emmtb\AppData\Roaming\Code\CachedData\c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\emmtb\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\emmtb\OneDrive
+# makefile
+CURDIR := c:/Users/emmtb/Desktop/coding/urcl-assembler
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 13132
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+POSH_THEMES_PATH = C:\Users\emmtb\AppData\Local\Programs\oh-my-posh\themes
+# automatic
+*F = $(notdir $*)
+# environment
+LUA_PATH = ;;C:\Program Files (x86)\Lua\5.1\lua\?.luac
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVECONSUMER = C:\Users\emmtb\OneDrive
+# default
+MAKE_HOST := Windows32
+# makefile (from 'Makefile', line 3)
+OBJS = ${SOURCES:.cpp=.o}
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\emmtb
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\scoop\shims;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files\nodejs\;C:\Program Files\NASM\;C:\Program Files\qemu\;C:\Program Files\mingw64\bin;C:\Program Files;C:\Program Files\VideoLAN\VLC;C:\Program Files (x86)\SDL2.dll;C:\Program Files\CMake\bin;C:\Program Files\nu\bin\;C:\Users\emmtb\Desktop\coding\lang\llvm-project\build\lib\cmake\llvm;C:\chromedriver;C:\build2\bin;C:\Users\emmtb\scoop\apps\gsudo\current;C:\Users\emmtb\.cargo\bin;C:\Users\emmtb\scoop\shims;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Lua\5.1;C:\Program Files (x86)\Lua\5.1\clibs;C:\Program Files\nodejs\;C:\Program Files\NASM\nasm.exe;C:\Program Files\qemu\;C:\Ruby31\bin;C:\Users\emmtb\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\emmtb\AppData\Local\Programs\Python\Python310\;C:\Users\emmtb\AppData\Local\Microsoft\WindowsApps;C:\Users\emmtb\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\emmtb\.dotnet\tools;C:\Users\emmtb\AppData\Roaming\npm;C:\Users\emmtb\.dotnet\tools;C:\Users\emmtb\AppData\Local\Programs\oh-my-posh\bin;
+# environment
+COMPUTERNAME = DESKTOP-55PNCOD
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132896474178954716
+# environment
+LOGONSERVER = \\DESKTOP-55PNCOD
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = emmtb
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.wlua;.lexe;.RB;.RBW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = DESKTOP-55PNCOD
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := assembler
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-55PNCOD
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\emmtb\AppData\Roaming
+# makefile (from 'Makefile', line 7)
+CFLAGS = -I./include -O2 -Wall -std=c++2a -g --static
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\emmtb\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\1f263562f1716af30e90a1522228517a-1.67.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 6801
+# makefile (from 'Makefile', line 5)
+CXX = g++
+# makefile (from 'Makefile', line 2)
+SOURCES = ${wildcard src/*.cpp src/*/*.cpp}
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD
+# variable set hash-table stats:
+# Load=104/1024=10%, Rehash=0, Collisions=12/133=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (key c:/Users/emmtb/Desktop/coding/urcl-assembler/src, mtime 1654317665): 4 files, no impossibilities.
+# . (key c:/Users/emmtb/Desktop/coding/urcl-assembler, mtime 1654339161): 9 files, no impossibilities.
+
+# 13 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+%.o: %.cpp
+#  recipe to execute (from 'Makefile', line 13):
+	$(CXX) $(CFLAGS) -c $< -o obj/$(notdir $@)
+
+# 1 implicit rules, 0 (0.0%) terminal.
+# Files
+
+# Not a target:
+src/tokeniser.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+assembler: src/main.o src/tokeniser.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	$(CXX) $(CFLAGS) obj/*.o -o $@
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-04 15:44:51
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# fil 
+es hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/19=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 19 / storage = 150 B / avg = 7 B
+# current buf: size = 8174 B / used = 150 B / count = 19 / avg = 7 B
+
+# strcache performance: lookups = 27 / hit rate = 29%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=0/27=0%
+# Finished Make data base on Sat Jun 04 20:46:45 2022
+
+ 

@@ -10,6 +10,7 @@ enum TT_TYPES {
     TT_IMMEDIATE,
     TT_REGADDR,
     TT_MEMADDR,
+    TT_UNKNOWN
 };
 
 struct Token {
