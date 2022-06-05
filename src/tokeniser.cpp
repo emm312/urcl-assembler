@@ -19,15 +19,16 @@ std::vector<std::string> to_words(std::string code) {
     std::vector<std::string> words;
     for (const std::string& line: lines) {
         std::string word;
-        for (const char& c: line) {
+        std::string e;
+        for (char c : line) {
             if (c == ' ') {
-                words.push_back(word);
-                word = "";
+                words.push_back(e);
+                e = "";
             } else {
-                word += c;
+                e += c;
             }
         }
-        words.push_back(word);
+        words.push_back(e);
     }
     return words;
 }
